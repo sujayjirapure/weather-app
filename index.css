@@ -1,0 +1,88 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.place{
+    margin-top: 100px;
+    margin-left: 130px;
+}
+.imp {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1000px;
+    margin: 10px;
+    font-size: 40px;
+    color: rgb(22, 21, 21);
+
+}
+#weather-view{
+    display: flex;
+    width: 450px;
+    margin-left: 280px;
+    background-color: rgb(172, 216, 236);
+    border-radius: 20px;
+}
+#weather{
+    width: 300px;
+    font-size: 30px;
+    margin-left: 20px;
+}
+#view-icon{
+}
+#btn{
+    width: 100px;
+    height: 55px;
+    border-radius: 20px;
+    font-size: 25px;
+    padding: 10px;
+}
+#get {
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px grey;
+}
+#btn:hover{
+    border: 3px solid rgb(14, 74, 112);
+}
+#get:hover{
+    border: 3px solid rgb(14, 74, 112);
+}
+
+.background {
+    background: rgb(227, 223, 223) url('./bg.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column
+}
+.font {
+    font-size: 40px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.logo-img{
+    width: 70px;
+    height: 70px;
+    border-radius: 15px;
+}
+.logo{
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    display: flex;
+    margin-left: 330px;
+}
+.footer{
+    background-color: rgb(13, 39, 53);
+    color: white;
+    text-align: center;
+    padding: 5px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    
+}

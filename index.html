@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Weather App</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="index.css">
+        <link rel="icon" type="image/x-icon" href="./logo.png">
+        <script src="https://code.jquery.com/jquery-3.6.2.min.js" integrity="sha256-2krYZKh//PcchRtd+H+VyyQoZ/e3EcrkxhM8ycwASPA=" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        
+        <div class="background"> 
+            <div class="place">
+                <div class="logo">
+                    <img src="./logo.png" class="logo-img"/>
+                    Weather App
+                </div>
+
+                <div class="imp">
+                    <form action="">
+                        <input type="search" id="get" placeholder="Enter city name...">
+                        <input type="button" id="btn" value="Get" onclick="getdata()"/>
+                    </form>
+                </div>
+                
+                <div id="weather-view">
+                    <div id="weather">
+                        <div id="displayname"></div>
+                        <div id="displaytemp"></div>
+                        <div id="displayvisi"></div>
+                        <div id="displaycode"></div>
+                    </div>
+                    <div id="view-icon">
+                        <div id="icon"></div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            Made by :- Sujay S. Jirapure
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
